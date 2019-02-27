@@ -20,4 +20,4 @@ def extract_fn(tfrecord):
     image = tf.image.decode_image(sample['image'])
     img_shape = tf.stack([sample['rows'], sample['cols'], sample['channels']])
     filename = sample['filename']
-    return [image, filename, img_shape]
+    return image
