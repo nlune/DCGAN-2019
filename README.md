@@ -32,14 +32,15 @@ The first folder path should be changed to the folder your images are saved. The
 
 To run the GUI, cd into the Inpaint_GUI folder and `./gui_inpaint.py` or `python gui_inpaint.py`.
 
+
 Screenshot of GUI:
 
-<img src="https://github.com/nlune/DCGAN-Face-Inpainting/blob/master/src/display_images/gui_screenshot.png" width="200"/>
+<img src="https://github.com/nlune/DCGAN-Face-Inpainting/blob/master/src/display_images/gui_screenshot.png" width="500"/>
 
 
 Sample of images generated after some iterations, and the inpainted face:
 
-![alt text](https://github.com/nlune/DCGAN-Face-Inpainting/blob/master/src/display_images/traverse_manifold.png "Inpainting result")
+<img src="https://github.com/nlune/DCGAN-Face-Inpainting/blob/master/src/display_images/traverse_manifold.png" width="500"/>
 
 
 External code was used for loading the .pb file, postprocessing / Poisson blending (link to original in code).
