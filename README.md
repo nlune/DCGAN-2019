@@ -1,5 +1,5 @@
 # Inpaint Faces using DCGAN
-This repository contains a replication of the paper [Semantic Image Inpainting with Deep Generative Models](https://arxiv.org/pdf/1607.07539.pdf) by Yeh _et al_.
+This work in this repository is based on the paper [Semantic Image Inpainting with Deep Generative Models](https://arxiv.org/pdf/1607.07539.pdf) by Yeh _et al_.
 
 We use the same pretrained DCGAN (trained on [CelebA dataset](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)), but we used the [LFW dataset](http://vis-www.cs.umass.edu/lfw/) and our own images.
 
