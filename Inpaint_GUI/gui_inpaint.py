@@ -87,7 +87,7 @@ class InpaintApp(Frame):
         hbtn.grid(row=5, column=0, padx=5, pady=5)
 
         wbtn = Button(self, text="Settings", command=self.setParams)
-        wbtn.grid(row=5, column=1, padx=5, pady=5)
+        wbtn.grid(row=5, column=1)
 
         Button(self, text="Save Image(s)", command=self.saveImg).grid(row=5, column=2, padx=5, pady=5)
 
@@ -336,7 +336,7 @@ class InpaintApp(Frame):
     def clickHelp(self):
         toplevel = Toplevel(root)
         toplevel.title("Help")
-        with open("about.txt", "r") as f:
+        with open("files/about.txt", "r") as f:
             Label(toplevel, text=f.read(), height=20, width=100).pack()
 
         def closetl():
