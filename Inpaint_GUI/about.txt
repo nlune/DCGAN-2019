@@ -1,0 +1,4 @@
+Click on Random Image to get a random face to fill, or select your own face image.
+You can change some parameters using the button below.
+Choose a mask and click Start Inpaint to get started! 
+Click Save Image button after to save the inpainted image to the Save Folder you selected.

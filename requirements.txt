@@ -1,0 +1,6 @@
+tensorflow
+numpy
+pyamg
+scipy==1.0
+Pillow
+
