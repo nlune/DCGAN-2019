@@ -337,12 +337,12 @@ class InpaintApp(Frame):
         toplevel = Toplevel(root)
         toplevel.title("Help")
         with open("about.txt", "r") as f:
-            Label(toplevel, text=f.read(), height=10, width=80).pack()
+            Label(toplevel, text=f.read(), height=20, width=100).pack()
 
         def closetl():
             toplevel.destroy()
 
-        Button(toplevel, text="Close", command=closetl).pack(side=RIGHT)
+        Button(toplevel, text="Close", command=closetl).pack()
 
 
     def setParams(self):

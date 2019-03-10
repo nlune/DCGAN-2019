@@ -1,4 +1,11 @@
-Click on Random Image to get a random face to fill, or select your own face image.
-You can change some parameters using the button below.
+Click on Random Image to get a random face to fill, 
+or select your own face image (must be RGB image cropped to 64x64).
+
+In the Settings, you can choose the number of iterations to backpropagate the error. 
+The original paper did 1000, but if you're running on CPU we recommend 100 or less. 
+You can choose to use the weighted mask for the importance weighted context loss. 
+You can also save the mask and masked images in the chosen folder. 
+
 Choose a mask and click Start Inpaint to get started! 
-Click Save Image button after to save the inpainted image to the Save Folder you selected.
+
+Click Save Image button after to save the image(s) to the folder you selected.
