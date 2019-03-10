@@ -61,13 +61,13 @@ class InpaintApp(Frame):
 
         # buttons right
         abtn = Button(self, text="Select Image", command=self.openImg)
-        abtn.grid(row=2, column=4, padx =5)
+        abtn.grid(row=2, column=4, padx =5, pady=5)
 
 
 
 
         abtn = Button(self, text="Random Image", command=self.getRandImg)
-        abtn.grid(row=1, column=4, padx =5)
+        abtn.grid(row=1, column=4, padx =5, pady=5)
 
         # choose mask
         choices = {'Center','Random', 'Half' }
@@ -84,20 +84,20 @@ class InpaintApp(Frame):
 
         # buttons lower
         hbtn = Button(self, text="Help", command=self.clickHelp)
-        hbtn.grid(row=5, column=0)
+        hbtn.grid(row=5, column=0, padx=5, pady=5)
 
         wbtn = Button(self, text="Settings", command=self.setParams)
-        wbtn.grid(row=5, column=1)
+        wbtn.grid(row=5, column=1, padx=5, pady=5)
 
-        Button(self, text="Save Image(s)", command=self.saveImg).grid(row=5, column=2)
+        Button(self, text="Save Image(s)", command=self.saveImg).grid(row=5, column=2, padx=5, pady=5)
 
 
         obtn = Button(self, text="Start Inpaint", command=self.start_inpaint)
-        obtn.grid(row=5, column=3)
+        obtn.grid(row=5, column=3, padx=5, pady=5)
 
 
         cbtn = Button(self, text="Quit", command=self.ExitApplication)
-        cbtn.grid(row=5, column=4)
+        cbtn.grid(row=5, column=4, padx=5, pady=5)
 
 
         # progress bar

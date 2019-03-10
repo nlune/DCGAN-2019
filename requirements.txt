@@ -3,4 +3,8 @@ numpy
 pyamg
 scipy==1.0
 Pillow
+opencv-python
+matplotlib 
+scikit-image
+imageio
 
