@@ -8,7 +8,7 @@ There are 2 main components to this repo, a Jupyter Notebook tutorial / experime
 
 
 ## How to use
-First, please install the dependencies `pip install -r requirements.txt`.
+First, please install the dependencies using `pip install -r requirements.txt`.
 
 We tested on our own images after preprocessing the faces using OpenFace. The face images must be 64 x 64 RGB images.
 To use OpenFace for preprocessing, you need to have Python 2. You can create an environment with Python 2, and do the following terminal commands:
@@ -26,10 +26,12 @@ cd ..
 
 2. `./openface/util/align-dlib.py data/FolderImagesToProcess align innerEyesAndBottomLip data/NameFolderToSaveProcessedImages --size 64`
 
-The first folder path should be changed to the folder your images are saved. The second folder path is where processed images will be saved.
+The first folder path should be changed to the folder where your images are saved. The second folder path is where processed images will be saved.
 
 
 To run the GUI, cd into the Inpaint_GUI folder and `./gui_inpaint.py` or `python gui_inpaint.py`.
+
+Option to save images after each iteration: in the gui_inpaint.py file, set self.saveEaItr = True. 
 
 
 Screenshot of GUI (result of inpainting using 50 iterations):
@@ -42,6 +44,6 @@ Sample of images generated after 50 iterations, and the inpainted face:
 <img src="https://github.com/nlune/DCGAN-Face-Inpainting/blob/master/src/display_images/traverse_manifold.png" width="500"/>
 
 
-External code was used for loading the .pb file, postprocessing / Poisson blending (link to original in code).
 
-Option to save images after each iteration in GUI, in the gui_inpaint.py file, set self.saveEaItr = True. 
+External code was used for loading the .pb file, postprocessing / Poisson blending (link to original in code). The instructions for OpenFace were taken from https://bamos.github.io/2016/08/09/deep-completion/
+
