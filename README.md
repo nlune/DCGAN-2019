@@ -41,7 +41,7 @@ Option to save images after each iteration: in the gui_inpaint.py file, set self
 
 
 
-*Sample of images generated after 50 iterations, and the inpainted face*:
+*Sample of images generated after some iterations and the inpainted face after 50 iterations*:
 
 <img src="https://github.com/nlune/DCGAN-Face-Inpainting/blob/master/src/display_images/traverse_manifold.png" width="500"/>
 
