@@ -34,12 +34,14 @@ To run the GUI, cd into the Inpaint_GUI folder and `./gui_inpaint.py` or `python
 Option to save images after each iteration: in the gui_inpaint.py file, set self.saveEaItr = True. 
 
 
-Screenshot of GUI (result of inpainting using 50 iterations):
+
+*Screenshot of GUI (result of inpainting using 50 iterations)*:
 
 <img src="https://github.com/nlune/DCGAN-Face-Inpainting/blob/master/src/display_images/gui_screenshot.png" width="500"/>
 
 
-Sample of images generated after 50 iterations, and the inpainted face:
+
+*Sample of images generated after 50 iterations, and the inpainted face*:
 
 <img src="https://github.com/nlune/DCGAN-Face-Inpainting/blob/master/src/display_images/traverse_manifold.png" width="500"/>
 
