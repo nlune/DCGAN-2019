@@ -34,7 +34,7 @@ To run the GUI, cd into the Inpaint_GUI folder and `./gui_inpaint.py` or `python
 
 Screenshot of GUI:
 
-![](https://github.com/nlune/DCGAN-Face-Inpainting/blob/master/src/display_images/gui_screenshot.png | width=100)
+<img src="https://github.com/nlune/DCGAN-Face-Inpainting/blob/master/src/display_images/gui_screenshot.png" width="200"/>
 
 
 Sample of images generated after some iterations, and the inpainted face:
