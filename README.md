@@ -31,7 +31,7 @@ The first folder path should be changed to the folder where your images are save
 
 
 #### Inpainting GUI
-To run the GUI, cd into the Inpaint_GUI folder and `./gui_inpaint.py` or `python gui_inpaint.py`.
+To run the GUI, cd into the Inpaint_GUI folder and run `./gui_inpaint.py` or `python gui_inpaint.py`.
 
 Option to save images after each iteration: in the gui_inpaint.py file, set self.saveEaItr = True.
 
