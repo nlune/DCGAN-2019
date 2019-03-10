@@ -10,7 +10,7 @@ There are 2 main components to this repo, a Jupyter Notebook tutorial / experime
 ## How to use
 First, please install the dependencies using `pip install -r requirements.txt`.
 
-#### Optional pre-processing step if you want to use your images
+#### Optional pre-processing step if you want to use your own images
 We tested on our own images after preprocessing the faces using OpenFace. The face images must be 64 x 64 RGB images.
 To use OpenFace for preprocessing, you need to have Python 2. You can create an environment with Python 2, and do the following terminal commands:
 
