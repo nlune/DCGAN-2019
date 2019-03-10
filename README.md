@@ -35,7 +35,7 @@ Option to save images after each iteration: in the gui_inpaint.py file, set self
 
 
 
-*Screenshot of GUI (result of inpainting using 50 iterations)*:
+*Screenshot of GUI*:
 
 <img src="https://github.com/nlune/DCGAN-Face-Inpainting/blob/master/src/display_images/gui_screenshot.png" width="500"/>
 
