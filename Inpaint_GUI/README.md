@@ -1,4 +1,4 @@
-## How to run Fill Your Face
+## How to run Fill Your Face App
 
 To run the Inpainting GUI, cd into this folder in terminal and:    
 
@@ -6,4 +6,4 @@ To run the Inpainting GUI, cd into this folder in terminal and:
 
 To create an executable, use `python setup.py build`
 -- still needs to be fixed as it currently makes a shared library instead of .exe file.
-Check the cx-Freeze documentation. 
+Check the cx-Freeze documentation.

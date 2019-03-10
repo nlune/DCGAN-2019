@@ -15,13 +15,12 @@ To use OpenFace for preprocessing, you need to have Python 2. You can create an 
 
 1. `git clone https://github.com/cmusatyalab/openface.git`
 
-2. ```python
-cd openface
-pip2 install -r requirements.txt
-python2 setup.py install
-models/get-models.sh
-cd ..
-```
+2. `cd openface`
+`pip2 install -r requirements.txt`
+`python2 setup.py install`
+`models/get-models.sh`
+`cd ..`
+
 
 3. `./openface/util/align-dlib.py data/FolderImagesToProcess align innerEyesAndBottomLip data/NameFolderToSaveProcessedImages --size 64`
 
