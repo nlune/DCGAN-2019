@@ -4,7 +4,7 @@ This repository contains a replication of the paper [Semantic Image Inpainting w
 We use the same pretrained DCGAN (trained on [CelebA dataset](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)), but we used the [LFW dataset](http://vis-www.cs.umass.edu/lfw/) and our own images.
 
 ## Overview
-There are 2 main components to this repo, a Jupyter Notebook tutorial / experiment and a Graphical User Interface for face inpainting. We tried some different parameters from the paper, and visualized the final result as well as the images generated after each iteration.
+There are 2 main components to this repo, a Jupyter Notebook tutorial / experiment and a Graphical User Interface for face inpainting. We tried some different parameters from the paper, and visualized the final result as well as the images generated after each iteration. Some results that we display are from fewer iterations than the original paper. 
 
 
 ## How to use
@@ -15,7 +15,6 @@ To use OpenFace for preprocessing, you need to have Python 2. You can create an 
 
 1. `git clone https://github.com/cmusatyalab/openface.git`
 
-2.
 ```python
 cd openface
 pip2 install -r requirements.txt
@@ -25,7 +24,7 @@ cd ..
 ```
 
 
-3. `./openface/util/align-dlib.py data/FolderImagesToProcess align innerEyesAndBottomLip data/NameFolderToSaveProcessedImages --size 64`
+2. `./openface/util/align-dlib.py data/FolderImagesToProcess align innerEyesAndBottomLip data/NameFolderToSaveProcessedImages --size 64`
 
 The first folder path should be changed to the folder your images are saved. The second folder path is where processed images will be saved.
 
@@ -33,12 +32,12 @@ The first folder path should be changed to the folder your images are saved. The
 To run the GUI, cd into the Inpaint_GUI folder and `./gui_inpaint.py` or `python gui_inpaint.py`.
 
 
-Screenshot of GUI:
+Screenshot of GUI (result of inpainting using 50 iterations):
 
 <img src="https://github.com/nlune/DCGAN-Face-Inpainting/blob/master/src/display_images/gui_screenshot.png" width="500"/>
 
 
-Sample of images generated after some iterations, and the inpainted face:
+Sample of images generated after 50 iterations, and the inpainted face:
 
 <img src="https://github.com/nlune/DCGAN-Face-Inpainting/blob/master/src/display_images/traverse_manifold.png" width="500"/>
 
